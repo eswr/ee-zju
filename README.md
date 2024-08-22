@@ -37,6 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Deploy on Gtihub pages
 
-```bash
-npm run build
-```
+push a commit to main branch, wait for github actions to deploy and check the [site](https://eswr.github.io/ee-zju/)
