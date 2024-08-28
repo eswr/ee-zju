@@ -1,5 +1,6 @@
 import { ChevronDownIcon, ChevronRightIcon, PhoneIcon, MailIcon, MapPinIcon, BookOpenIcon, GraduationCapIcon, UsersIcon, NewspaperIcon, GlobeIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Component() {
   return (
@@ -50,7 +51,7 @@ export default function Component() {
                   <ul className="absolute hidden group-hover:block bg-[#00529b] w-48 shadow-lg z-10">
                     <li>
                       <a href="#" className="block px-4 py-2 hover:bg-[#003d73] transition-colors duration-200">
-                        Submenu Item 1
+                        Introduction
                       </a>
                     </li>
                     <li>
@@ -70,7 +71,7 @@ export default function Component() {
         <div className="container mx-auto px-4 py-8">
           <div className="mb-8">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ppUfkIRqslrmhC5mJgHhAxqyfU5gwY.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-vTDWvBWQTQjwahEMe3ELHvvPCoViLpYyw&s"
               alt="Zhejiang University Campus"
               className="w-full h-[400px] object-cover rounded-lg"
             />
@@ -114,7 +115,9 @@ export default function Component() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-[#00529b] hover:underline flex items-center">
+                <Link href="/about">Home</Link>
+
+                  <a href="//google.com" className="text-[#00529b] hover:underline flex items-center">
                     <GlobeIcon className="mr-2 h-4 w-4" /> International Collaborations
                   </a>
                 </li>
@@ -166,3 +169,4 @@ export default function Component() {
     </div>
   )
 }
+
